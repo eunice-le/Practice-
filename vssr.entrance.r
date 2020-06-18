@@ -22,7 +22,7 @@ plot(x = reer$DATE, y = reer$Brazil,
 lines(x = reer$DATE, y = reer$Japan,
       type = "l", col = "red")
 lines(x = reer$DATE, y = reer$`South Africa`,
-      type = "l", col = "blue")
+      type = "l", col = "light blue")
 lines(x = reer$DATE, y = reer$`United States`,
       type = "l", col = "green")
 #label vector for x-axis
@@ -35,8 +35,6 @@ abline(v=seq(from=min(reer$DATE), by='1 year', length=21), lty = 2, col = "grey"
 
 #add legend
 legend("bottomright", legend = c("Brazil", "Japan", "South Africa", "United States"),
-        col = c("black", "red", "blue", "green"),
+        col = c("black", "red", "light blue", "green"),
         lty=1, cex=0.5, ncol = 2)
-
-
 
