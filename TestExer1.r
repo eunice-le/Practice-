@@ -50,32 +50,3 @@ summary(lm2)
 #a = 21.1, b = 0.3
 #Std error of b = 0.09, t-value of b = 4.25
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
