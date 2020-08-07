@@ -42,10 +42,3 @@ ggplot(data.a, aes(x = Year, y = Amount, color = Indicator.Name, group = Indicat
                                 'purple','orange','steel blue')) +
   theme_classic(base_size = 12) + ggtitle('Advanced Economies Total Amount')
 
-
-  
-
-
-       
-       
-       
